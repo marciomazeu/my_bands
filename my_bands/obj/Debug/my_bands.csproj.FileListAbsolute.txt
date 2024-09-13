@@ -1,0 +1,7 @@
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\bin\Debug\my_bands.exe.config
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\bin\Debug\my_bands.exe
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\bin\Debug\my_bands.pdb
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\obj\Debug\my_bands.csproj.AssemblyReference.cache
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\obj\Debug\my_bands.csproj.CoreCompileInputs.cache
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\obj\Debug\my_bands.exe
+D:\Marcio\projetos-programas\pessoal\my_bands\my_bands\obj\Debug\my_bands.pdb
