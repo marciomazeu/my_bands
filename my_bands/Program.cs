@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace my_bands
@@ -10,11 +11,14 @@ namespace my_bands
     {
         static void Main(string[] args)
         {
+            List<string> band = new List<string>();
+
             showMenu();
 
            
             void showMenu()
             {
+                Console.Clear();
                 Console.WriteLine("**********************");
                 Console.WriteLine("MY BANDS");
                 Console.WriteLine("**********************");
@@ -33,7 +37,8 @@ namespace my_bands
                         insertBand();
                         break;
                     case 2:
-                        Console.WriteLine("Voce sescolheu a opcao 2.");
+                        //Console.WriteLine("Voce sescolheu a opcao 2.");
+                        showBand();
                         break;
                     default:
                         Console.WriteLine("Opcao desconhecida");
@@ -45,13 +50,33 @@ namespace my_bands
 
            void insertBand()
             {
+                Console.Clear();
                 Console.WriteLine("Write the name of your band to insert.");
                 string bandName = Console.ReadLine();
-                List<string> band = new List<string>();
+                
                 band.Add(bandName);
                 Console.WriteLine($"Voce inseriu a banda {bandName} com sucesso.");
 
-                Console.WriteLine("\nPress any key to exit.");
+
+                Thread.Sleep(2000);
+                Console.Clear();
+                //Console.WriteLine("\nPress any key to exit.");
+                showMenu();
+            }
+
+            void showBand()
+            {
+                Console.Clear();
+                Console.WriteLine("Saved Bands:");
+                band.ForEach(x => Console.WriteLine(x));
+
+                Thread.Sleep(2000);
+                //Console.Clear();
+                Console.WriteLine("\nPress any key to return to menu.");
+                
+                Console.ReadKey();
+                //Console.Clear();
+                showMenu();
             }
         }
     }
