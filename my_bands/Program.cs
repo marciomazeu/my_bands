@@ -45,8 +45,12 @@ namespace my_bands
                         //Console.WriteLine("Voce sescolheu a opcao 2.");
                         evaluateBand();
                         break;
+                    case 4:
+                        //Console.WriteLine("Voce sescolheu a opcao 2.");
+                        averageBandGrade();
+                        break;
                     default:
-                        Console.WriteLine("Opcao desconhecida");
+                        Console.WriteLine("Unknown option.");
                         break;
                 }
 
@@ -60,7 +64,7 @@ namespace my_bands
                 string bandName = Console.ReadLine();
 
                 bands.Add(bandName, new List<int> ());
-                Console.WriteLine($"Voce inseriu a banda {bandName} com sucesso.");
+                Console.WriteLine($"The band {bandName} was inserted with success.");
 
 
                 Thread.Sleep(2000);
@@ -116,6 +120,20 @@ namespace my_bands
                     showMenu();
                 }
             }
+
+            void averageBandGrade() {
+                Console.Clear();
+                Console.Write("Wich band do you like to see the average note? ");
+                string bandName = Console.ReadLine();
+                double gradeAverage = bands[bandName].Average();
+                Console.WriteLine($"The average note of {bandName} is {gradeAverage}");
+                Console.WriteLine("\nPress any key to return to menu.");
+                Console.ReadKey();
+                Console.Clear();
+                showMenu();
+
+            }
+
         }
     }
 }
