@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Band.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Band.cs",
+              "RelativeDocumentMoniker": "my_bands\\Band.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Band.cs",
+              "RelativeToolTip": "my_bands\\Band.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:28:51.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Gender.cs",
+              "RelativeDocumentMoniker": "my_bands\\Gender.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Gender.cs",
+              "RelativeToolTip": "my_bands\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T03:00:42.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Album.cs",
+              "RelativeDocumentMoniker": "my_bands\\Album.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Album.cs",
+              "RelativeToolTip": "my_bands\\Album.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:23:50.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Music.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Music.cs",
+              "RelativeDocumentMoniker": "my_bands\\Music.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Music.cs",
+              "RelativeToolTip": "my_bands\\Music.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwCUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:25:22.976Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +91,7 @@
               "RelativeDocumentMoniker": "my_bands\\Program.cs",
               "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Program.cs",
               "RelativeToolTip": "my_bands\\Program.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAIwIAAAAA0AAAA",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAIwKEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T01:06:34.13Z",
               "EditorCaption": ""

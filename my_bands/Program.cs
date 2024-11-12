@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+using my_bands;
 namespace my_bands
 {
     internal class Program
@@ -14,7 +14,7 @@ namespace my_bands
             // List<string> band = new List<string>();
             Dictionary<string, List<int>> bands = new Dictionary<string, List<int>>();
 
-            showMenu();
+            //showMenu();
 
            
             void showMenu()
@@ -38,15 +38,15 @@ namespace my_bands
                         insertBand();
                         break;
                     case 2:
-                        //Console.WriteLine("Voce sescolheu a opcao 2.");
+                        //Console.WriteLine("Voce escolheu a opcao 2.");
                         showBand();
                         break;
                     case 3:
-                        //Console.WriteLine("Voce sescolheu a opcao 2.");
+                        //Console.WriteLine("Voce escolheu a opcao 3.");
                         evaluateBand();
                         break;
                     case 4:
-                        //Console.WriteLine("Voce sescolheu a opcao 2.");
+                        //Console.WriteLine("Voce escolheu a opcao 4.");
                         averageBandGrade();
                         break;
                     default:
@@ -134,6 +134,33 @@ namespace my_bands
 
             }
 
+            Band queen = new Band("Queen");
+
+            Music musica1 = new Music(queen, "Love of my life") { 
+            Duration = 231,
+            Available = true,
+            };
+            
+           
+
+            Music musica2 = new Music(queen, "Bohemian Rhapsody")
+            { 
+            Duration = 354,
+            Available = false,
+            };
+            
+            
+            Album albumDoQueen = new Album("A night at the opera");
+
+            albumDoQueen.AddMusic(musica1);
+            albumDoQueen.AddMusic(musica2);
+            queen.AddAlbum(albumDoQueen);
+
+            musica1.ShowTecInfo();
+            musica2.ShowTecInfo();
+            albumDoQueen.ShowMusics();
+            queen.ShowDiscography();
+            Console.ReadKey();
         }
     }
 }
