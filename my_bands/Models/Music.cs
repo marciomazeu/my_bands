@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace my_bands
+namespace my_bands.Models
 {
     internal class Music
     {

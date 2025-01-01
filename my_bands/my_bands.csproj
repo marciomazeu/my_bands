@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Album.cs" />
-    <Compile Include="Band.cs" />
-    <Compile Include="Gender.cs" />
-    <Compile Include="Music.cs" />
+    <Compile Include="Models\Album.cs" />
+    <Compile Include="Models\Avaliation.cs" />
+    <Compile Include="Models\Band.cs" />
+    <Compile Include="Models\Gender.cs" />
+    <Compile Include="Models\Music.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

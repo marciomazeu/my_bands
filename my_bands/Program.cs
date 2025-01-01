@@ -1,10 +1,10 @@
-﻿using System;
+﻿using my_bands.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-using my_bands;
+
 namespace my_bands
 {
     internal class Program
@@ -12,11 +12,12 @@ namespace my_bands
         static void Main(string[] args)
         {
             // List<string> band = new List<string>();
-            Dictionary<string, List<int>> bands = new Dictionary<string, List<int>>();
+            //Dictionary<string, List<int>> bands = new Dictionary<string, List<int>>();
+            Dictionary<string, Band> registeredBand = new Dictionary<string, Band>();
 
-            //showMenu();
+            showMenu();
 
-           
+
             void showMenu()
             {
                 Console.Clear();
@@ -62,8 +63,8 @@ namespace my_bands
                 Console.Clear();
                 Console.WriteLine("Write the name of your band to insert.");
                 string bandName = Console.ReadLine();
-
-                bands.Add(bandName, new List<int> ());
+                Band band = new Band(bandName);
+                registeredBand.Add(bandName, band);
                 Console.WriteLine($"The band {bandName} was inserted with success.");
 
 
@@ -78,7 +79,7 @@ namespace my_bands
                 Console.Clear();
                 Console.WriteLine("Saved Bands:");
                 //band.ForEach(x => Console.WriteLine(x));
-                foreach (string band in bands.Keys)
+                foreach (string band in registeredBand.Keys)
                 {
                     Console.WriteLine(band);
                 }
@@ -100,20 +101,21 @@ namespace my_bands
                 Console.Clear();
                 Console.WriteLine("Evaluate the band");
                 Console.Write("Type the name of the band to evaluate: ");
-                string nomeDaBanda = Console.ReadLine();
-                if (bands.ContainsKey(nomeDaBanda))
+                string bandName = Console.ReadLine();
+                if (registeredBand.ContainsKey(bandName))
                 {
-                    Console.Write($"What note the band {nomeDaBanda} deserves? ");
-                    int nota = int.Parse(Console.ReadLine());
-                    bands[nomeDaBanda].Add(nota);
-                    Console.WriteLine($"\nThe note {nota} was register with success for the band {nomeDaBanda}");
+                    Band band = registeredBand[bandName];
+                    Console.Write($"What note the band {bandName} deserves? ");
+                    Avaliation grade = Avaliation.Parse(Console.ReadLine());
+                    band.AddGrade(grade);
+                    Console.WriteLine($"\nThe note {grade.Grade} was register with success for the band {bandName}");
                     Thread.Sleep(2000);
                     Console.Clear();
                     showMenu();
                 }
                 else
                 {
-                    Console.WriteLine($"\nThe band {nomeDaBanda} was not found!");
+                    Console.WriteLine($"\nThe band {bandName} was not found!");
                     Console.WriteLine("\nPress any key to return to menu.");
                     Console.ReadKey();
                     Console.Clear();
@@ -121,11 +123,13 @@ namespace my_bands
                 }
             }
 
-            void averageBandGrade() {
+            void averageBandGrade()
+            {
                 Console.Clear();
                 Console.Write("Wich band do you like to see the average note? ");
                 string bandName = Console.ReadLine();
-                double gradeAverage = bands[bandName].Average();
+                Band band = registeredBand[bandName];
+                double gradeAverage = band.Media;
                 Console.WriteLine($"The average note of {bandName} is {gradeAverage}");
                 Console.WriteLine("\nPress any key to return to menu.");
                 Console.ReadKey();
@@ -134,6 +138,7 @@ namespace my_bands
 
             }
 
+            /*
             Band queen = new Band("Queen");
 
             Music musica1 = new Music(queen, "Love of my life") { 
@@ -161,6 +166,8 @@ namespace my_bands
             albumDoQueen.ShowMusics();
             queen.ShowDiscography();
             Console.ReadKey();
+            */
+            //Console.WriteLine("done!"); Console.ReadLine();
         }
     }
 }
