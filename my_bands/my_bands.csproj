@@ -54,6 +54,7 @@
     <Compile Include="Models\Avaliation.cs" />
     <Compile Include="Models\Band.cs" />
     <Compile Include="Models\Gender.cs" />
+    <Compile Include="Models\IAvailable.cs" />
     <Compile Include="Models\Music.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

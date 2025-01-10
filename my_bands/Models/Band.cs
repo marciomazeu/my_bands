@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace my_bands.Models
 {
-    internal class Band
+    internal class Band:IAvailable
     {
         private List<Album> albums = new List<Album>();
         private List<Avaliation> grades = new List<Avaliation>();

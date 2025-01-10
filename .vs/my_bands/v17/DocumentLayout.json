@@ -3,31 +3,39 @@
   "WorkspaceRootPath": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\models\\iavailable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\models\\iavailable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menuexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menushowdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menushowdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menushowdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menushowbands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menushowbands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menushowbands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuinsertband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuinsertband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menuinsertband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menubandevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menubandevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menubandevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|d:\\marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuaveragerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\menus\\menuaveragerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6C87EE-4C6A-4338-AA44-45EA2B73E401}|my_bands\\my_bands.csproj|solutionrelative:my_bands\\menus\\menuaveragerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Band.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Models\\Band.cs",
+              "RelativeDocumentMoniker": "my_bands\\Models\\Band.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Models\\Band.cs",
+              "RelativeToolTip": "my_bands\\Models\\Band.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:22:45.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IAvailable.cs",
+              "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Models\\IAvailable.cs",
+              "RelativeDocumentMoniker": "my_bands\\Models\\IAvailable.cs",
+              "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Models\\IAvailable.cs",
+              "RelativeToolTip": "my_bands\\Models\\IAvailable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:19:32.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MenuExit.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuExit.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuExit.cs",
@@ -54,12 +88,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuExit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T02:02:18.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T02:02:18.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MenuShowDetails.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuShowDetails.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuShowDetails.cs",
@@ -67,12 +100,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuShowDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T02:00:38.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T02:00:38.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MenuShowBands.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuShowBands.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuShowBands.cs",
@@ -80,12 +112,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuShowBands.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T02:00:30.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T02:00:30.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MenuBandEvaluation.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuBandEvaluation.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuBandEvaluation.cs",
@@ -93,12 +124,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuBandEvaluation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T02:00:23.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T02:00:23.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MenuInsertBand.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuInsertBand.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuInsertBand.cs",
@@ -106,12 +136,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuInsertBand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:59:27.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T01:59:27.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MenuAverageRating.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\MenuAverageRating.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\MenuAverageRating.cs",
@@ -119,12 +148,11 @@
               "RelativeToolTip": "my_bands\\Menus\\MenuAverageRating.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T23:18:50.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T23:18:50.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Menus\\Menu.cs",
               "RelativeDocumentMoniker": "my_bands\\Menus\\Menu.cs",
@@ -132,18 +160,17 @@
               "RelativeToolTip": "my_bands\\Menus\\Menu.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:13:28.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T01:13:28.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Program.cs",
               "RelativeDocumentMoniker": "my_bands\\Program.cs",
               "ToolTip": "D:\\Marcio\\projetos-programas\\pessoal\\my_bands\\my_bands\\Program.cs",
               "RelativeToolTip": "my_bands\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T01:06:34.13Z",
               "EditorCaption": ""
