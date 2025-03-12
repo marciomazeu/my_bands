@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace my_bands.Models
 {
-    internal class Album
+    internal class Album :IAvailable
     {
         public List<Music> musics = new List<Music>(); 
+        public List<Avaliation> albumGrades = new List<Avaliation>();
         public string Name { get; }
 
         public int TotalDuration => musics.Sum(m => m.Duration);
@@ -22,6 +23,19 @@ namespace my_bands.Models
             musics.Add(music);
         }
 
+        public double Media
+        {
+            get
+            {
+                if (albumGrades.Count == 0) return 0;
+                else return albumGrades.Average(grade => grade.Grade);
+            }
+        }
+
+        public void AddGrade(Avaliation albumGrade)
+        {
+            albumGrades.Add(albumGrade);
+        }
         public void ShowMusics()
         {
             Console.WriteLine($"List of musics from {Name}:\n");

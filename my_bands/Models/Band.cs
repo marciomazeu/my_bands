@@ -8,7 +8,7 @@ namespace my_bands.Models
 {
     internal class Band:IAvailable
     {
-        private List<Album> albums = new List<Album>();
+        public List<Album> albums = new List<Album>();
         private List<Avaliation> grades = new List<Avaliation>();
         public double Media
         {
@@ -24,6 +24,7 @@ namespace my_bands.Models
         {
             Name = name;
         }
+        public IEnumerable<Album> Albuns => albums;
         public void AddAlbum(Album album)
         {
             albums.Add(album);

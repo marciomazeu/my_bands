@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menus\Menu.cs" />
+    <Compile Include="Menus\MenuAlbumEvaluation.cs" />
     <Compile Include="Menus\MenuAverageRating.cs" />
     <Compile Include="Menus\MenuBandEvaluation.cs" />
     <Compile Include="Menus\MenuExit.cs" />
+    <Compile Include="Menus\MenuInsertAlbum.cs" />
     <Compile Include="Menus\MenuInsertBand.cs" />
     <Compile Include="Menus\MenuShowBands.cs" />
     <Compile Include="Menus\MenuShowDetails.cs" />

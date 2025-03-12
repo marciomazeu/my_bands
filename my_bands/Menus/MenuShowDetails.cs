@@ -23,6 +23,10 @@ namespace my_bands.Menus
                 /**
                 * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
                 */
+                foreach (Album album in band.albums)
+                {
+                    Console.WriteLine($"Album: {album.Name} -> {album.Media}");
+                }
                 Console.WriteLine("Press any key to return to menu.");
                 Console.ReadKey();
                 Console.Clear(); 

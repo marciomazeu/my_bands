@@ -22,7 +22,9 @@ namespace my_bands
                 { 2, new MenuShowBands() },
                 { 3, new MenuBandEvaluation() },
                 { 4, new MenuAverageRating() },
-                { 5, new MenuShowDetails() },
+                { 5, new MenuInsertAlbum() },
+                { 6, new MenuAlbumEvaluation() },
+                { 7, new MenuShowDetails() },
                 { -1, new MenuExit() }
             };
 
@@ -40,7 +42,9 @@ namespace my_bands
                 Console.WriteLine("Press 2 to show the BAND list.");
                 Console.WriteLine("Press 3 to evaluate a BAND.");
                 Console.WriteLine("Press 4 to see the average score of a BAND.");
-                Console.WriteLine("Press 5 to see the Band details.");
+                Console.WriteLine("Press 5 to insert an Album.");
+                Console.WriteLine("Press 6 to evaluate an Album.");
+                Console.WriteLine("Press 7 to see the Band details.");
                 Console.WriteLine("Press -1 to exit.");
 
                 //int options = Convert.ToInt32(Console.ReadLine());
