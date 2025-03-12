@@ -8,6 +8,9 @@ This project is a study of the application of object-oriented programming and th
 Console App (.Net Framework)  
 C#
 
+## Pictures
+Main menu  
+![Main menu](https://github.com/marciomazeu/my_bands/blob/master/assets/menu-principal.png)
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
